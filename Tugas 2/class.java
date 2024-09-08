@@ -4,8 +4,8 @@ public class Car {
   private String color;
 
   public void viewCarInfo() {
-    System.out.println(brand);
-    System.out.println(model);
-    System.out.println(color);
+    System.out.println("Brand: " + brand);
+    System.out.println("Model: " + model);
+    System.out.println("Color: " + color);
   }
 }
