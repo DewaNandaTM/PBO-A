@@ -35,4 +35,9 @@ public class Car {
     System.out.println("Model: " + model);
     System.out.println("Color: " + color);
   }
+
+   public static void main(String[] args) {
+    Car myCar = new Car("Toyota", "Supra", "Red");
+    myCar.viewCarInfo();
+  }
 }
