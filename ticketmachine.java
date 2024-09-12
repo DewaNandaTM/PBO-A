@@ -45,7 +45,7 @@ public class TicketMachine {
           balance = balance - price;
       }
       else {
-          System.out.println("Insufficient balance, insert " + (price - balance) + " more cents.");            
+          System.out.println("You must insert at least " + (price - balance) + " more cents.");            
       }
   }
 
@@ -58,7 +58,6 @@ public class TicketMachine {
 
   public static void main(String[] args) {
     TicketMachine ticketMachine = new TicketMachine(20);
-
     ticketMachine.insertMoney(30);
     ticketMachine.printTicket();
   }
