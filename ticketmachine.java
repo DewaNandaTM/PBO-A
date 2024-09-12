@@ -4,10 +4,10 @@ public class TicketMachine {
   private int total;
 
   public TicketMachine(int price) {
-    if price <= 0 {
+    if (price <= 0) {
       System.out.println("Ticket price must be more than 0");
     } else {
-      this.price = price
+      this.price = price;
     }
     this.balance = 0;
     this.total = 0;
@@ -22,7 +22,7 @@ public class TicketMachine {
   }
 
   public int getTotal() {
-    return total
+    return total;
   }
 
   public void insertMoney(int amount) {
