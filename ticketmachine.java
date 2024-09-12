@@ -4,7 +4,7 @@ public class TicketMachine {
   private int total;
 
   public TicketMachine(int price) {
-    if cost <= 0 {
+    if price <= 0 {
       System.out.println("Ticket price must be more than 0");
     } else {
       this.price = price
