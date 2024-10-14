@@ -1,5 +1,5 @@
 class Responder {
-  public void respond(String respond) {
+  public void generateResponse(String respond) {
     if (!respond.equalsIgnoreCase("bye")) {
       System.out.println("That sounds interesting. Tell me more...");
     } else {
