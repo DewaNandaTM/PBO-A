@@ -7,7 +7,7 @@ class InputReader {
     userInput = new Scanner(System.in);
   }
 
-  public String input() {
+  public String getInput() {
     System.out.print("> ");
     return userInput.nextLine();
   }
