@@ -15,13 +15,13 @@ public class SupportSystem {
 
     while (true) {
       String input = reader.getInput();
-      if (input.equalsIgnoreCase("bye")) {
-        System.out.println("Thank you for using our technical support system, Goodbye!");
-        break;
-      } 
       
       String response = responder.generateResponse(input);
       System.out.println(response);
+
+      if (input.equalsIgnoreCase("bye")) {
+        break;
+      } 
     }
   }
 }
