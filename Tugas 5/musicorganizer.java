@@ -41,13 +41,13 @@ public class MusicOrganizer {
       }
     }
 
-    public boolean trackSearch(String trackSearch) {
+    public boolean searchTrack(String searchTrack) {
       int index = 0;
       boolean searching = true;
 
       while (searching && index < tracks.size()) {
         String trackTitle = tracks.get(index).getTitle();
-        if (trackTitle.contains(trackSearch)) {
+        if (trackTitle.contains(searchTrack)) {
           searching = false;
         } else {
           index++;
